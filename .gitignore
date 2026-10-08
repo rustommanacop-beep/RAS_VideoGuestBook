@@ -1,0 +1,14 @@
+# Database connection files
+/database.php
+/database/database.php
+
+# Environment files
+.env
+.env.*
+
+# Private uploaded videos
+/uploads/
+/private_ras_videos/
+
+# Log files
+*.log
