@@ -1,4 +1,5 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 <?php
 session_start();
@@ -197,6 +198,8 @@ body {
 </body>
 </html>
 =======
+=======
+>>>>>>> Stashed changes
 
 <?php
 session_start();
@@ -394,4 +397,7 @@ body {
 
 </body>
 </html>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
