@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-
 <?php
 session_start();
 ?>
@@ -336,4 +334,3 @@ session_start();
 
 </body>
 </html>
->>>>>>> Stashed changes
