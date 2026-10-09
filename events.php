@@ -64,9 +64,8 @@ $result = mysqli_query(
 
         <a href="events.php">SERVICES</a>
 
-        <a href="events.php" class="gold-text">
-            BOOK NOW!
-        </a>
+        <a href="contactus.php">CONTACT US</a>
+
 
         <?php if (isset($_SESSION['user_id'])) { ?>
 

@@ -10,7 +10,44 @@ session_start();
     <title>RAS Video Guest Book - Home</title>
     <link rel="icon" href="pictures/ras.png">
     <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        .home-contact {
+            background: #f7f2e9;
+            text-align: center;
+            padding: 70px 20px;
+        }
+
+        .home-contact h2 {
+            color: #604126;
+            font-size: 32px;
+            margin-bottom: 15px;
+        }
+
+        .home-contact p {
+            max-width: 650px;
+            margin: 0 auto 25px;
+            color: #66594d;
+            line-height: 1.8;
+        }
+
+        .home-contact .contact-link {
+            display: inline-block;
+            padding: 12px 25px;
+            background: #eeeeee;
+            color: #222222;
+            border: 1px solid #aaaaaa;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .home-contact .contact-link:hover {
+            background: #dddddd;
+        }
+    </style>
 </head>
+
 <body>
 
 <!-- Logo and Website Name -->
@@ -27,7 +64,7 @@ session_start();
         <a href="index.php">HOME</a>
         <a href="aboutus.php">ABOUT US</a>
         <a href="events.php">SERVICES</a>
-        <a href="events.php" class="gold-text">BOOK NOW!</a>
+        <a href="contactus.php">CONTACT US</a>
 
         <?php if (isset($_SESSION['user_id'])) { ?>
             <a href="my_bookings.php">MY BOOKINGS</a>
@@ -104,6 +141,23 @@ session_start();
     <a href="aboutus.php" class="button">READ MORE</a>
 </section>
 
+<!-- Contact Us Section -->
+<section class="home-contact">
+    <p class="small-title">GET IN TOUCH</p>
+    <h2>Contact Us</h2>
+
+    <p>
+        Have questions about our video guest book or mirror
+        photobooth services? Contact us for more information,
+        booking enquiries, or assistance with your upcoming event.
+    </p>
+
+    <a href="contactus.php" class="contact-link">
+        CONTACT US
+    </a>
+</section>
+
+<!-- Footer -->
 <footer class="footer">
     <h3>RAS Video Guest Book</h3>
     <p>Creating memories that last forever.</p>

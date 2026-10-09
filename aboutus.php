@@ -25,7 +25,7 @@ session_start();
         <a href="index.php">HOME</a>
         <a href="aboutus.php">ABOUT US</a>
         <a href="events.php">SERVICES</a>
-        <a href="events.php" class="gold-text">BOOK NOW!</a>
+        <a href="contactus.php">CONTACT US</a>
 
         <?php if (isset($_SESSION['user_id'])) { ?>
             <a href="my_bookings.php">MY BOOKINGS</a>

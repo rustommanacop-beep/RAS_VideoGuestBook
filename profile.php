@@ -42,7 +42,7 @@ $user = $stmt->get_result()->fetch_assoc();
         <a href="index.php">HOME</a>
         <a href="aboutus.php">ABOUT US</a>
         <a href="events.php">SERVICES</a>
-        <a href="events.php" class="gold-text">BOOK NOW!</a>
+        <a href="contactus.php">CONTACT US</a>
         <a href="my_bookings.php">MY BOOKINGS</a>
         <a href="profile.php">PROFILE</a>
         <?php if (($_SESSION['role'] ?? '') == 'admin') { ?>
